@@ -1,0 +1,39 @@
+https://www.geeksforgeeks.org/enum-in-java/
+
+Question 1:
+-------------------
+
+  Main method in enum:-
+  
+  We can declare main() method inside enum. Hence we can invoke enum directly from the Command Prompt.
+filter_none
+edit
+play_arrow
+
+brightness_4
+// A Java program to demonstrate that we can have 
+// main() inside enum class. 
+enum Color 
+{ 
+    RED, GREEN, BLUE; 
+  
+    // Driver method 
+    public static void main(String[] args) 
+    { 
+        Color c1 = Color.RED; 
+        System.out.println(c1); 
+    } 
+} 
+
+
+Q 2:
+
+Ordinal in Enum
+
+Q3:
+Can enum extend any other enums
+
+   It already extends java.lang.enum so cant extend but can implement multiple interfaces
+   
+Q 4:
+

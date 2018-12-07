@@ -1,3 +1,5 @@
+package com.training.Random;
+
 import java.util.*;
 import java.util.Map.Entry;
 import java.lang.*;
