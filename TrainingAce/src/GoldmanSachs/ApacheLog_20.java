@@ -8,7 +8,7 @@ import java.util.Map;
 /*
  * https://lion.app.box.com/folder/49843502281
  */
-public class ApacheLog {
+public class ApacheLog_20 {
 
 	public static String findTopIpaddress(String[] lines) {
 		Map<String, Integer> counter = new HashMap<>();
